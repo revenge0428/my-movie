@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'd131311eb7ee903bee145ece88a03545'; // Replace with your actual TMDb API key
+const API_KEY = 'd131311eb7ee903bee145ece88a03545'; 
 const BASE_URL = 'https://api.themoviedb.org/3';
 
 const tmdbApi = axios.create({
@@ -11,12 +11,10 @@ const tmdbApi = axios.create({
   },
 });
 
-// Fetch a list of genres
 export const fetchGenres = () => {
   return tmdbApi.get('/genre/movie/list');
 };
 
-// Fetch movies based on genre
 export const fetchMovies = (genreId) => {
   return tmdbApi.get('/discover/movie', {
     params: {
@@ -26,12 +24,12 @@ export const fetchMovies = (genreId) => {
   });
 };
 
-// Fetch movie details by ID
+
 export const fetchMovieDetails = (movieId) => {
   return tmdbApi.get(`/movie/${movieId}`);
 };
 
-// Search movies by query
+
 export const searchMovies = (query) => {
   return tmdbApi.get('/search/movie', {
     params: {

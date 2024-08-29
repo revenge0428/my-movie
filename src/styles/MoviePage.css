@@ -1,28 +1,26 @@
-/* src/styles/MoviePage.css */
-
 .movie-page {
   position: relative;
-  color: #fff; /* White text color for contrast */
+  color: #fff; 
 }
 
 .hero-image {
-  position: absolute; /* Position it absolutely to take full space */
+  position: absolute; 
   top: 0;
   left: 0;
   right: 0;
-  height: 100vh; /* Full viewport height */
-  background-size: cover; /* Cover the entire area */
-  background-position: center; /* Center the background image */
-  z-index: -1; /* Place it behind other content */
-  opacity: 0.5; /* Reduce opacity to see content on top */
+  height: 100vh; 
+  background-size: cover; 
+  background-position: center; 
+  z-index: -1; 
+  opacity: 0.5; 
 }
 
 .movie-details {
-  position: relative; /* Ensure the details are on top */
+  position: relative; 
   padding: 20px;
   margin: 20px;
-  background: rgba(0, 0, 0, 0.7); /* Darker background for readability */
-  border-radius: 8px; /* Rounded corners */
+  background: rgba(0, 0, 0, 0.7); 
+  border-radius: 8px; 
 }
 
 .movie-details h3, .movie-details p {
@@ -41,5 +39,5 @@
 }
 
 .action-button:hover {
-  background: #e64a39; /* Darker shade on hover */
+  background: #e64a39; 
 }

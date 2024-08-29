@@ -1,35 +1,33 @@
-/* src/styles/MovieCard.css */
-
 .movie-card {
-  margin: 10px; /* Margin around the card */
-  width: 220px; /* Fixed width */
-  text-align: center; /* Center-align text */
-  background-color: #222; /* Dark background color */
-  border-radius: 12px; /* Rounded corners */
-  overflow: hidden; /* Hide overflowing content */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow effect */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
-  cursor: pointer; /* Pointer cursor for clickable */
-  color: #fff; /* White text color */
-  position: relative; /* For overlay positioning */
+  margin: 10px; 
+  width: 220px; 
+  text-align: center; 
+  background-color: #222; 
+  border-radius: 12px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  cursor: pointer; 
+  color: #fff; 
+  position: relative; 
 }
 
 .movie-card img {
-  width: 100%; /* Full width */
-  height: auto; /* Maintain aspect ratio */
-  border-bottom: 2px solid #ff5722; /* Thin border at the bottom */
-  transition: transform 0.3s ease; /* Smooth transform on hover */
+  width: 100%; 
+  height: auto; 
+  border-bottom: 2px solid #ff5722; 
+  transition: transform 0.3s ease; 
 }
 
 .movie-card:hover img {
-  transform: scale(1.05); /* Scale effect on hover */
+  transform: scale(1.05); 
 }
 
 .movie-card h3 {
-  margin: 10px 0; /* Margin around the title */
-  font-size: 1.1rem; /* Font size */
-  font-weight: 600; /* Font weight for emphasis */
-  color: #fff; /* Text color */
+  margin: 10px 0; 
+  font-size: 1.1rem; 
+  font-weight: 600; 
+  color: #fff; 
 }
 
 .movie-card:hover {
