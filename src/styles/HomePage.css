@@ -1,0 +1,33 @@
+.hero-section {
+  background: url('https://cdn.prod.website-files.com/62d84e447b4f9e7263d31e94/6399a4d27711a5ad2c9bf5cd_ben-sweet-2LowviVHZ-E-unsplash-1.jpeg') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+.genre-selector {
+  margin: 20px 0;
+}
+
+.latest-movies {
+  margin: 20px;
+}
+
+.latest-movies,
+.korean-movies {
+  margin: 20px 0;
+}
+
+/* Optional: Style the heading for Korean Movies */
+.korean-movies h2 {
+  margin-top: 40px;
+}

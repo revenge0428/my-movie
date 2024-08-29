@@ -1,0 +1,65 @@
+/* src/styles/MovieCard.css */
+
+.movie-card {
+  margin: 10px; /* Margin around the card */
+  width: 220px; /* Fixed width */
+  text-align: center; /* Center-align text */
+  background-color: #222; /* Dark background color */
+  border-radius: 12px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  cursor: pointer; /* Pointer cursor for clickable */
+  color: #fff; /* White text color */
+  position: relative; /* For overlay positioning */
+}
+
+.movie-card img {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  border-bottom: 2px solid #ff5722; /* Thin border at the bottom */
+  transition: transform 0.3s ease; /* Smooth transform on hover */
+}
+
+.movie-card:hover img {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.movie-card h3 {
+  margin: 10px 0; /* Margin around the title */
+  font-size: 1.1rem; /* Font size */
+  font-weight: 600; /* Font weight for emphasis */
+  color: #fff; /* Text color */
+}
+
+.movie-card:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+.movie-card .movie-overlay {
+  position: absolute; /* Position overlay absolutely */
+  top: 0; /* Top edge */
+  left: 0; /* Left edge */
+  right: 0; /* Right edge */
+  bottom: 0; /* Bottom edge */
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  display: flex; /* Flex display for centering */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.movie-card:hover .movie-overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.movie-card .movie-overlay h4 {
+  color: #fff; /* Text color */
+  font-size: 1.2rem; /* Font size */
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Padding */
+  background: rgba(0, 0, 0, 0.6); /* Darker background for better readability */
+  border-radius: 8px; /* Rounded corners */
+}

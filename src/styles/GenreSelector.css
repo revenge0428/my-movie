@@ -1,0 +1,23 @@
+.genre-selector {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.genre-selector select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.genre-selector select:hover {
+  border-color: #ff5722;
+}
+
+.genre-selector option {
+  font-size: 16px;
+}

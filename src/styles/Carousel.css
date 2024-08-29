@@ -1,0 +1,44 @@
+.carousel-container {
+  margin: 20px auto;
+}
+
+.slick-slide {
+  padding: 0 10px;
+}
+
+.slick-slide img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.slick-slide img:hover {
+  transform: scale(1.05);
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  font-size: 14px;
+  color: #ff5722;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff8a50;
+}
+
+/* src/styles/Carousel.css */
+
+.custom-arrow {
+  width: 30px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: #fff; /* Arrow color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1; /* Ensure arrows are above other content */
+}
