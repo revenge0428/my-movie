@@ -4,6 +4,7 @@ import MovieCard from './MovieCard';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+
 const Carousel = ({ movies }) => {
   const settings = {
     dots: true,
