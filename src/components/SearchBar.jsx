@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { searchMovies } from '../tmdbApi';
 import { useNavigate } from 'react-router-dom';
-import '../styles/SearchBar.css'; // Importing the CSS file for styling
+import '../styles/SearchBar.css'; 
 
 const SearchBar = ({ onSearchResults }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -10,12 +10,12 @@ const SearchBar = ({ onSearchResults }) => {
   const handleSearch = async (e) => {
     e.preventDefault();
     if (searchTerm.trim() === '') {
-      return; // Do nothing if the search term is empty
+      return; 
     }
     try {
       const response = await searchMovies(searchTerm);
       onSearchResults(response.data.results);
-      navigate('/'); // Redirect to the home page or search results page if needed
+      navigate('/'); 
     } catch (error) {
       console.error('Failed to search movies:', error);
     }

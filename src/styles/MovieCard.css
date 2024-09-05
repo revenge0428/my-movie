@@ -31,33 +31,33 @@
 }
 
 .movie-card:hover {
-  transform: translateY(-5px); /* Slight lift effect */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
 }
 
 .movie-card .movie-overlay {
-  position: absolute; /* Position overlay absolutely */
-  top: 0; /* Top edge */
-  left: 0; /* Left edge */
-  right: 0; /* Right edge */
-  bottom: 0; /* Bottom edge */
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-  display: flex; /* Flex display for centering */
-  align-items: center; /* Center align items vertically */
-  justify-content: center; /* Center align items horizontally */
-  opacity: 0; /* Hidden by default */
-  transition: opacity 0.3s ease; /* Smooth transition */
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
 }
 
 .movie-card:hover .movie-overlay {
-  opacity: 1; /* Show overlay on hover */
+  opacity: 1; 
 }
 
 .movie-card .movie-overlay h4 {
-  color: #fff; /* Text color */
-  font-size: 1.2rem; /* Font size */
-  text-align: center; /* Center-align text */
-  padding: 20px; /* Padding */
-  background: rgba(0, 0, 0, 0.6); /* Darker background for better readability */
-  border-radius: 8px; /* Rounded corners */
+  color: #fff;
+  font-size: 1.2rem; 
+  text-align: center; 
+  padding: 20px; 
+  background: rgba(0, 0, 0, 0.6); 
+  border-radius: 8px; 
 }

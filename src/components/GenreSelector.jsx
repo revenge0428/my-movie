@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const GenreSelector = ({ genres, onSelectGenre }) => {
   return (
     <div style={{ margin: '20px 0' }}>

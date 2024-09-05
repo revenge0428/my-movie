@@ -28,17 +28,17 @@
   color: #ff8a50;
 }
 
-/* src/styles/Carousel.css */
+
 
 .custom-arrow {
   width: 30px;
   height: 30px;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  color: #fff; /* Arrow color */
+  background: rgba(0, 0, 0, 0.5); 
+  color: #fff; 
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   cursor: pointer;
-  z-index: 1; /* Ensure arrows are above other content */
+  z-index: 1; 
 }

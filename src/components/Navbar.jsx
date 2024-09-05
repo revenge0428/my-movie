@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/NavBar.css'; // Import the CSS file
+import '../styles/NavBar.css'; // ../styles/NavBar.css PARA DILI MALIMOT
 
 const Navbar = () => {
   return (
